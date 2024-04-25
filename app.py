@@ -62,6 +62,7 @@ class QuickAdd(App):
     # CSS_PATH = ""
 
     BINDINGS = [
+        ("q", "quit", "Quit"),
         ("d", "toggle_dark", "Toggle dark mode"),
     ]
     MODES = {
